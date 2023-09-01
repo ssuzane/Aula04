@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.item{
+    background-color:rgb(1, 247, 255);
+    display: flex;
+    padding: 24px;
+    width: 900px;
+    height: 100%;
+    gap: 14px;
+}
+button{
+    width: 140px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+span{
+    background-color: white;
+    border-radius: 12px;
+    display: inline-block;
+    min-width: 40px;
+    height: 30px;
+    padding-left: 16px;
+    padding-top: 8px;
+}
+.numeros{
+    display: flex;
+    gap: 6px;
+}
